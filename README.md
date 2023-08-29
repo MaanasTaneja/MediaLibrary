@@ -17,3 +17,10 @@ The Library can also be used to capture, process RTP stream packets for use in v
 -media.cpp - Contains all source.
 
 -graphics.h - Windowing system, optional, not part of library but useful for testing.
+
+## Library Structure
+
+-MediaContainer - Media file context, stores states, codec information of opened (or user defined contexts also) media, Timings, etc.
+
+-MediaFrame  - Stores decoded media frames.
+
